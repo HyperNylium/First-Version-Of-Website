@@ -1,0 +1,469 @@
+p { 
+	margin: 2px;
+}
+
+
+h1 {
+	margin: 2px;
+}
+
+h2 {
+	margin: 2px;
+}
+
+h3 {
+	margin: 2px;
+}
+
+h4 {
+	margin: 2px;
+}
+
+h5 {
+	margin: 2px;
+}
+
+
+
+html{
+
+	margin: 0px;
+}
+
+head{
+
+	margin: 0px;
+}
+
+body{
+
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type="file"]{
+
+	display: none;
+}
+
+label{
+
+	color: cyan;
+	height: 20px;
+	width: 60;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	background-color: black;
+	font-size: 20px;
+	margin-left: 15px;
+	transition: all ease-in-out 1040ms;
+
+}
+
+label:hover{
+
+	color: blue;
+	background-color: black;
+	transition: all ease-in-out 700ms;
+}
+
+::-webkit-scrollbar{
+
+	width: 12px;
+}
+
+::-webkit-scrollbar-track{
+
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(69, 100, 168, 100.100);
+}
+
+::-webkit-scrollbar-thumb{
+
+	border-radius: 5px;
+	background-color: #559da1;
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+	background-color: #504ac7;
+}
+
+::-webkit-scrollbar-thumb:active{
+
+	background-color: darkblue;
+}
+
+#re-direct{
+
+	margin-left: 100px;
+}
+
+#nav{
+
+	margin: 0px;
+}
+
+.logo{
+
+	float: left;
+	width: 175px;
+	height: 45px;
+}
+
+header{
+
+	background: #2dc3cb;
+}
+
+
+header::after{
+
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav{
+
+	float: left;
+	transition: all ease-in-out 1000ms;
+}
+
+
+nav ul{
+
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-top: 15px;
+	transition: all ease-in-out 1000ms;
+}
+
+nav li{
+
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 15px;
+	position: relative;
+	transition: all ease-in-out 1000ms;
+}
+
+nav a{
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav a:hover{
+
+	color: #000;
+
+}
+
+
+nav a::before{
+
+	content: "";
+	display: block;
+	height: 3px;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 700ms;
+}
+
+nav a:hover::before{
+
+	width: 100%;
+}
+
+
+#border-lines {
+	color: lime;
+	margin: 0px;
+}
+
+#page-title {
+	color: white;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+		
+}
+
+
+
+#explanation {
+	color: lime;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#htus1 {
+	color: aqua;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+
+#htus2 {
+	color: red;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+#winrar {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#winrar-link-64b {
+	color: blue;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#winrar-link-32b {
+	color: blue;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#link-explanation-1 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#link-1 {
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#link-explanation-2 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#link-2 {
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#link-explanation-3{  }
+
+#link-3{  }
+
+
+
+
+
+#link-explanation-4 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#link-4 {
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#link-explanation-5 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#link-5 {
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#link-explanation-6 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+#link-6 {
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#link-explanation-7 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#link-7{
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#upload-text{
+
+	margin: 0px;
+	color: darkorange;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+#link-explanation-8{
+
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+	
+
+#content-explanation-1 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+#content-explanation-2 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+#content-explanation-3 {
+	color: darkorange;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#meme_of_the_week{
+
+	color: lime;
+	margin: 3px;
+	margin-left: 60px;
+	margin-right: 0px;
+	transition: all ease-in-out 1000ms;
+
+}
+
+
+#meme_of_the_week_pic{
+
+	margin: 0px;
+	text-align: left;
+	margin-left: 82px;
+	margin-right: 0px;
+	transition: all ease-in-out 1000ms;
+
+}
+
+
+#website_video{
+
+	margin-left: 15px;
+	transition: all ease-in-out 1000ms;
+
+}
+
+
+
+
+
+
+
+
+
+
+#website-patent {
+	color: rosybrown;
+	margin: 3px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+#web-site-explanation {
+	color: skyblue;
+	margin: 0px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+#owner-of-web-site {
+	color: darkorange;
+	margin: 2px;
+	transition: all ease-in-out 1000ms;
+}
+
+
+
+
+
+
+}
+#sosial-media {
+	
+	color: darkorange; 
+	margin: 0px;
+	width:22px;
+	height:12px;
+	transition: all ease-in-out 1000ms;
+}
+
+#sosial-media:hover{
+
+	transition: all ease-in-out 1000ms;
+	font-size: 20px;
+}

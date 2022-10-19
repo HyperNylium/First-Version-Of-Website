@@ -1,0 +1,555 @@
+p { 
+	margin: 2px;
+}
+
+
+h1 {
+	margin: 2px;
+}
+
+h2 {
+	margin: 2px;
+}
+
+h3 {
+	margin: 2px;
+}
+
+
+h4 {
+	margin: 2px;
+}
+
+
+h5 {
+	margin: 2px;
+}
+
+
+
+html{
+
+	margin: 0px;
+}
+
+head{
+
+	margin: 0px;
+}
+
+body{
+
+	background-color: black;
+	margin: 0px;
+}
+
+::-webkit-scrollbar{
+
+	width: 12px;
+}
+
+::-webkit-scrollbar-track{
+
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(69, 100, 168, 100.100);
+}
+
+::-webkit-scrollbar-thumb{
+
+	border-radius: 5px;
+	background-color: #559da1;
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+	background-color: #504ac7;
+}
+
+::-webkit-scrollbar-thumb:active{
+
+	background-color: darkblue;
+}
+
+#user-login{
+
+	margin-left: 250px;
+	border: 2px solid blue;
+	border-radius: 20px;
+	padding: 3px;
+	transition: all ease-in-out 350ms;
+}
+
+#user-login-colors{
+
+	color: blue;
+	transition: all ease-in-out 350ms;
+}
+
+#user-login:hover{
+
+	margin-left: 250px;
+	border: 2px solid #707068;
+	border-radius: 20px;
+	padding: 3px;
+	transition: all ease-in-out 350ms;
+}
+
+#user-login-colors:hover{
+
+	color: #707068;
+	transition: all ease-in-out 350ms;
+}
+
+#nav{
+
+	margin: 0px;
+}
+
+.logo{
+
+	float: left;
+	width: 175px;
+	height: 45px;
+}
+
+header{
+
+	background: #2dc3cb;
+}
+
+
+header::after{
+
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav{
+
+	float: left;
+}
+
+
+nav ul{
+
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-top: 10px;
+}
+
+nav li{
+
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 15px;
+	position: relative;
+}
+
+nav a{
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav a:hover{
+
+	color: #000;
+	cursor: pointer;
+
+}
+
+nav #re-direct::before{
+
+	content: "";
+	display: block;
+	height: 3px;
+	background-color: #444;
+	position: absolute;
+	top: 17px;
+	width: 0%;
+	transition: all ease-in-out 900ms;
+}
+
+nav #navagasion::before{
+
+	content: "";
+	display: block;
+	height: 3px;
+	background-color: #444;
+	position: absolute;
+	top: 17px;
+	width: 0%;
+	transition: all ease-in-out 900ms;
+}
+
+nav #re-direct:hover::before{
+
+	width: 100%;
+}
+
+nav #navagasion:hover::before{
+
+	width: 100%;
+}
+
+#links{
+
+	text-decoration: none;
+	border: 1px solid;
+	border-color: blue;
+	transition: all ease-in-out 600ms;
+}
+
+#links:hover{
+
+	border: 3px solid;
+	color: lime;
+	transition: all ease-in-out 600ms;
+
+}
+
+#links:active{
+
+	border: 3px solid red;
+	color: red;
+}
+
+#optifine{
+
+	text-decoration: none;
+	transition: all ease-in-out 600ms;
+
+}
+
+#optifine:hover{
+
+	color: lime;
+	transition: all ease-in-out 600ms;
+}
+
+#border-lines {
+	color: lime;
+	margin: 0px;
+	cursor: default;
+}
+
+#page-title {
+	color: white;
+	margin: 0px;
+	cursor: default;
+}
+
+
+#explanation {
+	color: lime;
+	margin: 0px;
+	cursor: default;
+
+}
+
+
+
+
+
+
+
+#htus1 {
+	color: aqua;
+	margin: 0px;
+	cursor: default;
+}
+
+
+
+
+
+
+#htus2 {
+	color: red;
+	margin: 0px;
+	cursor: default;
+}
+
+
+
+
+
+#winrar {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#winrar-link-64b {
+	
+	margin: 0px;
+	cursor: default;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+#winrar-link-32b {
+	color: blue;
+	margin: 0px;
+	cursor: default;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
+
+
+
+#link-explanation-1 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#link-1 {
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+
+}
+
+
+
+
+
+#link-explanation-2 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#link-2 {
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
+
+
+
+#link-explanation-4 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#link-4 {
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
+
+
+
+#link-explanation-5 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#link-5 {
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
+
+
+
+#link-explanation-6 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+
+#link-6 {
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
+
+
+
+#link-explanation-7 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#link-7{
+	color: darkorange;
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
+
+
+
+
+#link-explanation-8{
+
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#link-8{
+
+	color: darkorange;
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+
+}
+
+#link-explanation-9{
+
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#link-9{
+
+	color: darkorange;
+	margin: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+
+}
+
+
+
+
+
+	
+
+#content-explanation-1 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+#content-explanation-2 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+
+#content-explanation-3 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+
+
+
+
+#link-explanation-8 {
+	color: darkorange;
+	margin: 0px;
+	cursor: default;
+}
+
+
+
+
+
+#meme_of_the_week{
+
+	color: lime;
+	margin: 3px;
+	margin-left: 60px;
+	margin-right: 0px;
+	cursor: default;
+
+}
+
+
+#meme_of_the_week_pic{
+
+	margin: 0px;
+	text-align: left;
+	margin-left: 82px;
+	margin-right: 0px;
+	cursor: default;
+
+}
+
+
+#website_video{
+
+	margin-left: 15px;
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+#website-patent {
+	color: rosybrown;
+	margin: 3px;
+	cursor: default;
+}
+
+
+
+
+
+
+#web-site-explanation {
+	color: skyblue;
+	margin: 0px;
+	cursor: default;
+}
+
+
+
+
+
+
+#owner-of-web-site {
+	color: darkorange;
+	margin: 2px;
+	cursor: default;
+}
+
+
+
+
+
+
+
+#sosial-media {
+color: darkorange; 
+margin: 0px;
+width:42px;
+height:42px;
+cursor: pointer;
+}
